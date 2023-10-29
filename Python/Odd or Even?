@@ -1,0 +1,10 @@
+def odd_or_even(arr):
+    sum = 0
+    for element in arr:
+        sum = sum + element
+    
+    if sum % 2 == 0:
+        return "even"
+    else:
+        return "odd"
+        
